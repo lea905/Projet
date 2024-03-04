@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <title>OhMyCode</title>
+    <meta name="description" content="Je code mon premier site" />
+    <!--ajouter css> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- ajouter une police sans télécharger-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--Font Awesome (icône)-->
+    <script src="https://kit.fontawesome.com/671a64d511.js" crossorigin="anonymous"></script>
+    <!--media query-->
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+</header>
+
+<body>
+    <section id="hero">
+        <nav>
+            <!-- target veut dire que le lien ouvre une nouvelle page et non la remplace-->
+            <a href="https://www.google.fr" target="_blank">Compétences</a>
+            <a href="https://www.google.fr" target="_blank">Parcours</a>
+            <a href="CV.pdf" target="_blank">Cv</a>
+        </nav>
+
+        <div id="bandeau">
+            <div id="contenu">
+                <img src="Logo.png" alt="Logo" width="200" />
+                <h1>OhMyCode </h1>
+                <h2>Je code mon premier site</h2>
+                <h3> Toutes les infos ici</h3>
+                <br /></br />
+                <a href='mailto:lea.barnezet@etu.univ-lyon1.fr?subject=Demande de Contact' id="btnMailto">
+                    Contactez-moi
+                </a>
+            </div> <!--Ferme contenu-->
+        </div> <!--Ferme bandeau-->
+    </section><!--Ferme section hero-->
+    <section id="apropos">
+        <div id="apropos_image">
+            <img src="apropos.jpg" alt="Img apropos" />
+        </div>
+        <div id="apropos_texte">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur magni quos temporibus porro
+                suscipit minus quas odit sunt dolor, laboriosam excepturi non corporis odio esse repellendus facilis
+                eveniet nihil? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, perspiciatis? Consequatur
+                voluptate itaque, deleniti quam veritatis fugiat modi est soluta dignissimos ut atque, asperiores qui
+                rerum harum quibusdam dicta Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor laudantium
+                sequi ratione tempora fuga odio, distinctio mollitia dolore? Optio molestias ex porro necessitatibus
+                eveniet eius cum cumque aliquam error expedita?
+            </p>
+        </div>
+    </section><!--Ferme section apropos-->
+    <section id="services">
+        <div class="services_item">
+            <i class="fa-solid fa-graduation-cap fa-4x"></i>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit iste voluptatibus incidunt
+                laborum! Ipsam, et nihil dolorum rerum rem eveniet commodi accusamus eaque necessitatibus dicta aliquam
+                sed perspiciatis! Minima!
+            </p>
+        </div>
+        <div class="services_item">
+            <i class="fa-solid fa-code fa-4x"></i>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit iste voluptatibus incidunt
+                laborum! Ipsam, et nihil dolorum rerum rem eveniet commodi accusamus eaque necessitatibus dicta aliquam
+                sed perspiciatis! Minima!
+            </p>
+        </div>
+        <div class="services_item">
+            <i class="fa-solid fa-comments fa-4x"></i>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit iste voluptatibus incidunt
+                laborum! Ipsam, et nihil dolorum rerum rem eveniet commodi accusamus eaque necessitatibus dicta aliquam
+                sed perspiciatis! Minima!
+            </p>
+        </div>
+    </section><!--Ferme section services-->
+    <footer>
+        <div class="social">
+            <a href="https://fr-fr.facebook.com/" target="_blank"></a>
+            <i class="fab fa-facebook-square fa-2x"></i>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/?lang=fr" target="_blank"></a>
+            <i class="fab fa-twitter-square fa-2x"></i>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/ target=" _blank"></a>
+            <i class="fab fa-instagram-square fa-2x"></i>
+        </div>
+    </footer>
+
+    <script src="script.js">  </script>
+    <!--MODAL-->
+    <div id="leadModal" class="modal">
+        <!--BLOC CENTRAL-->
+        <div class="modalBloc">
+            <!--UNE ICONE-->
+            <div>
+                <i class="fas fa-mug-hot fa-9x"></i>
+            </div>
+            <!--Titre-Image- Sous-Titre-->
+            <div class="modalText">
+                <h4 class="modalTextTitle">Continuez la lecture</h4>
+                <img src="lotus.jpg">
+                <h5 class="modalTextSubtitle">
+                    prochain article : les 5 plus belles fleurs du monde
+                </h5>
+            </div>
+            <div class="modalBtn">
+                <a href="#">Je continue</a>
+                <a href="#" id="bntNo">Non merci , je préfère pas savoir</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

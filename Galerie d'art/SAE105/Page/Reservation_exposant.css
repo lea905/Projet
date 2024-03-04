@@ -1,0 +1,327 @@
+/* variable global*/
+:root {
+    --hauteur-menu: 60px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.main_pages #actuel {
+    color: #1f464b;
+}
+
+label,
+#toggle {
+    display: none;
+}
+
+nav {
+    background: #5a9da6;
+}
+
+nav .main_pages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .main_pages a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background: #9ae5ef;
+}
+
+#content_nav {
+    display: flex;
+}
+
+.content {
+    display: flex;
+}
+
+#img {
+    width: 50%;
+
+}
+
+.G {
+    width: 50%;
+}
+
+header img {
+    padding-left: 30%;
+    width: 40%;
+}
+
+/*--------------------------------------------------------*/
+
+main p {
+    display: none;
+}
+
+table {
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    font-family: 'Ubuntu';
+    border-spacing: 0;
+    background-color: #333333;
+    margin-top: 1%;
+    margin-right: 1%;
+    float: right;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #292929;
+    letter-spacing: 1px;
+}
+
+td {
+    width: 14.285%;
+    transition: all 0.3s;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1.5% 1.5% 5%;
+    vertical-align: initial;
+    padding: 1.5% 0;
+    height: 75px;
+}
+
+.day:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.today {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .25) !important;
+}
+
+span.number {
+    margin-left: 10%
+}
+
+span.event-multiday {
+    margin: 5px -2px;
+    border-radius: 0;
+}
+
+span.event-multiday-start {
+    margin-right: -4px;
+}
+
+span.event-multiday-finish {
+    margin-left: -4px;
+}
+
+span.event-ghost {
+    background-color: transparent;
+}
+
+/*--------------------------------------------------------------------------*/
+aside {
+    margin: 4%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+aside p {
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+aside input {
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+aside #date {
+    margin-left: 15.5%;
+}
+
+#bouton {
+    display: flex;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background: #1f464b;
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#bouton:hover {
+    background: #5a9da6;
+}
+
+#bouton:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+/*--------------------------------------------------------------------------*/
+footer {
+    background-color: #1f464b;
+    color: #6fc3cf;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60%;
+    width: 100%;
+    
+
+}
+
+#Adresse {
+    width: 40%;
+}
+
+#Horaire {
+    width: 39%;
+    text-align: center;
+}
+
+#Abonnez {
+    width: 20%;
+    text-align: right;
+}
+
+#icon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#insta {
+    width: 80%;
+}
+
+#insta img {
+    width: 20%;
+}
+
+#facebook {
+    width: 20%;
+}
+
+
+
+#facebook img {
+    width: 80%;
+}
+
+
+/*Téléphone*/
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 60px;
+        text-align: center;
+
+    }
+
+    nav .main_pages {
+        display: none;
+        flex-direction: column;
+        background: #5a9da6;
+        height: 220px;
+        position: absolute;
+        width: 50%;
+    }
+
+    nav .main_pages a {
+        width: 50%;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+    }
+
+    #toggle:checked+.main_pages {
+        display: flex;
+    }
+
+
+    header img {
+        padding-left: 20%;
+        width: 80%;
+    }
+
+    /*---------------------------------------------------------------------------*/
+    table {
+        float: none;
+        margin-left: 20%;
+    }
+
+    main p {
+        margin: 3%;
+        display: flex;
+        text-align: center;
+    }
+
+    /*---------------------------------------------------------------------------*/
+    aside p {
+        display: none;
+    }
+
+    aside div {
+        display: flex;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+
+    /*---------------------------------------------------------------------------*/
+    footer{
+        margin-top: 2%;
+    }
+
+
+}

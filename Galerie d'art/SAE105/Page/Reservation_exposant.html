@@ -1,0 +1,151 @@
+<!doctype html>
+
+<head>
+  <meta name="viewport" charset="utf-8">
+  <link href='Reservation_exposant.css' rel='stylesheet' type='text/css'>
+  <title>Réservation de l'exposant</title>
+</head>
+
+<body>
+  <header>
+    <div id="content_nav">
+      <div id="img">
+        <img src="../icon/logo.png" alt="Logo">
+      </div>
+      <div class="G">
+
+        <nav>
+          <label for="toggle">☰</label>
+          <input type="checkbox" id="toggle">
+          <div class="main_pages">
+            <a href="accueil.html">Accueil</a>
+            <a href="#">Exposition</a>
+            <a href="#">Exposition antérieur</a>
+            <a id="actuel" href="Reservation_exposant">Contactez-nous</a>
+            <a href="Boutique.html">Boutique</a>
+            <a href="#">Panier</a>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+  <main>
+
+
+    <table>
+      <p>
+        Sur le calendrier il y a les disponibilités et vous pouvez choisir vos dates d'exposition
+        En fonction de ces disponibilités grace à lui ou grace au sélecteur de date puis
+        appuyer sur confirmer.
+      </p>
+      <tr>
+        <th class="day-name">Sun</th>
+        <th class="day-name">Mon</th>
+        <th class="day-name">Tue</th>
+        <th class="day-name">Wed</th>
+        <th class="day-name">Thu</th>
+        <th class="day-name">Fri</th>
+        <th class="day-name">Sat</th>
+      </tr>
+      <tr>
+        <td class="day"><span class="number">31</span></td>
+        <td class="day"><span class="number">1</span><span class="event"></span><span class="event"></span></td>
+        <td class="day"><span class="number">2</span></td>
+        <td class="day"><span class="number">3</span><span class="event event-multiday-start"></span></td>
+        <td class="day"><span class="number">4</span><span class="event event-multiday"></span><span
+            class="event event-multiday-start eventclass" style="background-color:#5a9ab2;"></span><span class="event">
+        </td>
+        <td class="day"><span class="number">5</span><span class="event event-multiday-finish"></span><span
+            class="event event-multiday eventclass" style="background-color:#5a9ab2;"></span></td>
+        <td class="day"><span class="number">6</span><span class="event event-ghost"></span><span
+            class="event event-multiday-finish eventclass" style="background-color:#5a9ab2;"></span></td>
+      </tr>
+      <tr>
+        <td class="day"><span class="number">7</span></td>
+        <td class="day"><span class="number">8</span><span class="event"></span></td>
+        <td class="day today"><span class="number">9</span></td>
+        <td class="day"><span class="number">10</span></td>
+        <td class="day"><span class="number">11</span></td>
+        <td class="day"><span class="number">12</span></td>
+        <td class="day"><span class="number">13</span></td>
+      </tr>
+      <tr>
+        <td class="day"><span class="number">14</span></td>
+        <td class="day"><span class="number">15</span></td>
+        <td class="day"><span class="number">16</span><span class="event"></span></td>
+        <td class="day"><span class="number">17</span><span class="event"></span></td>
+        <td class="day"><span class="number">18</span></td>
+        <td class="day"><span class="number">19</span></td>
+        <td class="day"><span class="number">20</span></td>
+      </tr>
+      <tr>
+        <td class="day"><span class="number">21</span></td>
+        <td class="day"><span class="number">22</span></td>
+        <td class="day"><span class="number">23</span></td>
+        <td class="day"><span class="number">24</span></td>
+        <td class="day"><span class="number">25</span></td>
+        <td class="day"><span class="number">26</span></td>
+        <td class="day"><span class="number">27</span><span class="event event-multiday-start"
+            style="background-color:#da5f5f;"></td>
+      </tr>
+      <tr>
+        <td class="day"><span class="number">28</span><span class="event event-multiday"
+            style="background-color:#da5f5f;"></td>
+        <td class="day"><span class="number">29</span><span class="event event-multiday-finish"
+            style="background-color:#da5f5f;"></td>
+        <td class="day"><span class="number">30</span></td>
+        <td class="day"><span class="number">1</span></td>
+        <td class="day"><span class="number">2</span></td>
+        <td class="day"><span class="number">3</span></td>
+        <td class="day"><span class="number">4</span></td>
+      </tr>
+      <tr>
+        <td class="day"><span class="number">5</span></td>
+        <td class="day"><span class="number">6</span><span class="event"></span></td>
+        <td class="day"><span class="number">7</span></td>
+        <td class="day"><span class="number">8</span></td>
+        <td class="day"><span class="number">9</span></td>
+        <td class="day"><span class="number">10</span></td>
+        <td class="day"><span class="number">11</span></td>
+      </tr>
+    </table>
+  </main>
+  <aside>
+    <p> Sur le calendrier il y a les disponibilités et vous pouvez choisir vos dates d'exposition
+      En fonction de ces disponibilités grace à lui ou grace au sélecteur de date puis
+      appuyer sur confirmer.</p>
+    <p>Veuiller rentrer une date :</p>
+    <div>
+        <input id="date" type="date" id="start" name="trip-start" value="2024-01-01" min="2024-01-01"
+          max="2024-12-31" />
+        <input id="bouton" type="button" value="Confirmée" />
+    </div>
+  </aside>
+
+  <footer>
+    <div id="Adresse">
+      <p>Adresse<br>
+        28 rue de la Libération<br>
+        29410 Plounéour-Ménez<br>
+        TÉLÉPHONE :07 57 84 86 99
+      </p>
+    </div>
+
+    <div id="Horaire">
+      <p>Horaires<br>
+        Du lundi au vendredi de 15h00 à 18h00
+      </p>
+    </div>
+    <div id="Abonnez">
+      <p>Abonnez-vous</p>
+      <div id="icon">
+        <a id="insta" href="https://www.instagram.com/ephemeregalerie/"><img src="../icon/insta.png" alt="insta"></a>
+        <a id="facebook" href="https://www.facebook.com/EphemereGalerie29410"><img src="../icon/facebook.png"
+            alt="facebook"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
