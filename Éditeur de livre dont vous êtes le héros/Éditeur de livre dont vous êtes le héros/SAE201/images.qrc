@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Images/images/bold.png</file>
+        <file>../Images/images/copy.png</file>
+        <file>../Images/images/create.png</file>
+        <file>../Images/images/cut.png</file>
+        <file>../Images/images/edit_redo.png</file>
+        <file>../Images/images/edit_undo.png</file>
+        <file>../Images/images/exit.png</file>
+        <file>../Images/images/font.png</file>
+        <file>../Images/images/info.png</file>
+        <file>../Images/images/italic.png</file>
+        <file>../Images/images/new.png</file>
+        <file>../Images/images/open.png</file>
+        <file>../Images/images/paste.png</file>
+        <file>../Images/images/pencil.png</file>
+        <file>../Images/images/print.png</file>
+        <file>../Images/images/save.png</file>
+        <file>../Images/images/save_as.png</file>
+        <file>../Images/images/underline.png</file>
+    </qresource>
+</RCC>
